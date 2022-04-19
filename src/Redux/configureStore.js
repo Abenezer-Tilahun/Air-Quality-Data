@@ -1,16 +1,16 @@
-import { createStore, combineReducers, applyMiddleware } from 'redux';
-import thunk from 'redux-thunk';
-import { composeWithDevTools } from 'redux-devtools-extension';
+import {
+  createStore, combineReducers, applyMiddleware, compose,
+} from 'redux';
 import logger from 'redux-logger';
-import weatherReducer from './weather/weatherReducer';
+import thunk from 'redux-thunk';
+import countryReducer from './Reducers/Country';
+import pollutionReducer from './Reducers/Pollution';
 
-const reducer = combineReducers({
-  weatherReducer,
+const rootReducer = combineReducers({
+  countryReducer,
+  pollutionReducer,
 });
 
-const store = createStore(
-  reducer,
-  composeWithDevTools(applyMiddleware(logger, thunk)),
-);
-
+const store = createStore(rootReducer,
+  compose(applyMiddleware(thunk, logger)));
 export default store;
