@@ -1,32 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import { NavLink } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome, faRefresh } from '@fortawesome/free-solid-svg-icons';
 
-const Navbar = () => {
-  const links = [
-    {
-      id: 1,
-      path: '/',
-      text: 'Home ',
-    },
-    {
-      id: 2,
-      path: '/detailsPage',
-      text: 'Details ',
-    },
-  ];
+const Header = (props) => {
+  const { id } = props;
   return (
-    <nav className="mb-5">
-      <div className="flex items-center justify-between pl-2 ring-4">
-        <h2 className="text-3xl font-bold text-sky-500">Air pollution</h2>
-        <ul className="flex justify-between pr-8 w-40">
-          {links.map((link) => (
-            <li className="text-base" key={link.id}>
-              <Link to={link.path}>{link.text}</Link>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </nav>
+    <div className="bg-pink-500 shadow-lg">
+      <nav>
+        <div className="d-flex justify-content-between align-items-center p-3 mb-2">
+          <button
+            type="button"
+            className="btn mt-2"
+          >
+            <NavLink to={id} className="link m-2 text-light">
+              <FontAwesomeIcon icon={faHome} className="icon" />
+            </NavLink>
+          </button>
+          <h1 className="header">AirNow</h1>
+          <NavLink to="/" className="link text-light">
+            <FontAwesomeIcon icon={faRefresh} className="icon" text="reload" />
+          </NavLink>
+        </div>
+      </nav>
+    </div>
   );
 };
-export default Navbar;
+Header.propTypes = {
+  id: PropTypes.string.isRequired,
+};
+
+export default Header;
