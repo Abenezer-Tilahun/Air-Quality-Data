@@ -1,0 +1,372 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pollutions List  Pollution lists render correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="bg-pink-500 shadow-lg"
+        >
+          <nav>
+            <div
+              class="d-flex justify-content-between align-items-center p-3 mb-2"
+            >
+              <button
+                class="btn mt-2"
+                type="button"
+              >
+                <a
+                  class="link m-2 text-light"
+                  href="/countries"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="svg-inline--fa fa-house icon"
+                    data-icon="house"
+                    data-prefix="fas"
+                    focusable="false"
+                    role="img"
+                    viewBox="0 0 576 512"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </button>
+              <h1
+                class="header"
+              >
+                AirNow
+              </h1>
+              <a
+                aria-current="page"
+                class="link text-light active"
+                href="/"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-arrows-rotate icon"
+                  data-icon="arrows-rotate"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  text="reload"
+                  viewBox="0 0 512 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M464 16c-17.67 0-32 14.31-32 32v74.09C392.1 66.52 327.4 32 256 32C161.5 32 78.59 92.34 49.58 182.2c-5.438 16.81 3.797 34.88 20.61 40.28c16.89 5.5 34.88-3.812 40.3-20.59C130.9 138.5 189.4 96 256 96c50.5 0 96.26 24.55 124.4 64H336c-17.67 0-32 14.31-32 32s14.33 32 32 32h128c17.67 0 32-14.31 32-32V48C496 30.31 481.7 16 464 16zM441.8 289.6c-16.92-5.438-34.88 3.812-40.3 20.59C381.1 373.5 322.6 416 256 416c-50.5 0-96.25-24.55-124.4-64H176c17.67 0 32-14.31 32-32s-14.33-32-32-32h-128c-17.67 0-32 14.31-32 32v144c0 17.69 14.33 32 32 32s32-14.31 32-32v-74.09C119.9 445.5 184.6 480 255.1 480c94.45 0 177.4-60.34 206.4-150.2C467.9 313 458.6 294.1 441.8 289.6z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </nav>
+        </div>
+        <div
+          class="pollution m-5"
+        >
+          <h3
+            class="text-white m-2"
+          />
+          <div
+            class="m-2"
+          >
+            <img
+              alt="flag"
+              class="w-25"
+            />
+          </div>
+          <p
+            class="m-2 text-warning"
+          >
+            Air pollution ( μg/m3 ) stats - 2022:
+          </p>
+          <table
+            class="table"
+          >
+            <thead>
+              <tr
+                class="table-light"
+              >
+                <th
+                  scope="col"
+                >
+                  gas
+                </th>
+                <th
+                  scope="col"
+                >
+                  μg/m3
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="table-secondary"
+              >
+                <th
+                  scope="row"
+                >
+                  CO
+                </th>
+                <td />
+              </tr>
+              <tr
+                class="table-danger"
+              >
+                <th
+                  scope="row"
+                >
+                  NO
+                </th>
+                <td />
+              </tr>
+              <tr
+                class="table-warning"
+              >
+                <th
+                  scope="row"
+                >
+                  NO2
+                </th>
+                <td />
+              </tr>
+              <tr
+                class="table-info"
+              >
+                <th
+                  scope="row"
+                >
+                  NO2
+                </th>
+                <td />
+              </tr>
+              <tr
+                class="table-info"
+              >
+                <th
+                  scope="row"
+                />
+                <td />
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="bg-pink-500 shadow-lg"
+      >
+        <nav>
+          <div
+            class="d-flex justify-content-between align-items-center p-3 mb-2"
+          >
+            <button
+              class="btn mt-2"
+              type="button"
+            >
+              <a
+                class="link m-2 text-light"
+                href="/countries"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="svg-inline--fa fa-house icon"
+                  data-icon="house"
+                  data-prefix="fas"
+                  focusable="false"
+                  role="img"
+                  viewBox="0 0 576 512"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </button>
+            <h1
+              class="header"
+            >
+              AirNow
+            </h1>
+            <a
+              aria-current="page"
+              class="link text-light active"
+              href="/"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-arrows-rotate icon"
+                data-icon="arrows-rotate"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                text="reload"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M464 16c-17.67 0-32 14.31-32 32v74.09C392.1 66.52 327.4 32 256 32C161.5 32 78.59 92.34 49.58 182.2c-5.438 16.81 3.797 34.88 20.61 40.28c16.89 5.5 34.88-3.812 40.3-20.59C130.9 138.5 189.4 96 256 96c50.5 0 96.26 24.55 124.4 64H336c-17.67 0-32 14.31-32 32s14.33 32 32 32h128c17.67 0 32-14.31 32-32V48C496 30.31 481.7 16 464 16zM441.8 289.6c-16.92-5.438-34.88 3.812-40.3 20.59C381.1 373.5 322.6 416 256 416c-50.5 0-96.25-24.55-124.4-64H176c17.67 0 32-14.31 32-32s-14.33-32-32-32h-128c-17.67 0-32 14.31-32 32v144c0 17.69 14.33 32 32 32s32-14.31 32-32v-74.09C119.9 445.5 184.6 480 255.1 480c94.45 0 177.4-60.34 206.4-150.2C467.9 313 458.6 294.1 441.8 289.6z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div
+        class="pollution m-5"
+      >
+        <h3
+          class="text-white m-2"
+        />
+        <div
+          class="m-2"
+        >
+          <img
+            alt="flag"
+            class="w-25"
+          />
+        </div>
+        <p
+          class="m-2 text-warning"
+        >
+          Air pollution ( μg/m3 ) stats - 2022:
+        </p>
+        <table
+          class="table"
+        >
+          <thead>
+            <tr
+              class="table-light"
+            >
+              <th
+                scope="col"
+              >
+                gas
+              </th>
+              <th
+                scope="col"
+              >
+                μg/m3
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              class="table-secondary"
+            >
+              <th
+                scope="row"
+              >
+                CO
+              </th>
+              <td />
+            </tr>
+            <tr
+              class="table-danger"
+            >
+              <th
+                scope="row"
+              >
+                NO
+              </th>
+              <td />
+            </tr>
+            <tr
+              class="table-warning"
+            >
+              <th
+                scope="row"
+              >
+                NO2
+              </th>
+              <td />
+            </tr>
+            <tr
+              class="table-info"
+            >
+              <th
+                scope="row"
+              >
+                NO2
+              </th>
+              <td />
+            </tr>
+            <tr
+              class="table-info"
+            >
+              <th
+                scope="row"
+              />
+              <td />
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
