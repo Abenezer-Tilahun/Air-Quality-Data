@@ -3,8 +3,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { combineReducers, createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
-import countryReducer from '../redux/Reducers/Country';
-import pollutionReducer from '../redux/Reducers/Pollution';
+import countryReducer from '../Redux/Reducers/Country';
+import pollutionReducer from '../Redux/Reducers/Pollution';
 import Countries from '../components/Detailspage/Countries';
 
 const rootReducer = combineReducers({
