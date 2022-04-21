@@ -3,7 +3,7 @@
 
 ![screenshot](./src/Images/Screenshot.png)
 
-Our goal here is to Build a single page web application for Air quality data Webapp using the React library, Click [here]() to get a live preview of the project.
+Our goal here is to Build a single page web application for Air quality data Webapp using the React library, Click [here](https://abenezer-tilahun.github.io/Air-Quality-Data/) to get a live preview of the project.
 
 ## Built With
 - React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
