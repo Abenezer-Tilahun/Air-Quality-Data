@@ -18,8 +18,9 @@ Object {
                 type="button"
               >
                 <a
-                  class="link m-2 text-light"
-                  href="/countries"
+                  aria-current="page"
+                  class="link m-2 text-light active"
+                  href="/"
                 >
                   <svg
                     aria-hidden="true"
@@ -44,14 +45,13 @@ Object {
                 AirNow
               </h1>
               <a
-                aria-current="page"
-                class="link text-light active"
-                href="/"
+                class="link text-light"
+                href="/countries"
               >
                 <svg
                   aria-hidden="true"
-                  class="svg-inline--fa fa-arrows-rotate icon"
-                  data-icon="arrows-rotate"
+                  class="svg-inline--fa fa-circle-arrow-left icon"
+                  data-icon="circle-arrow-left"
                   data-prefix="fas"
                   focusable="false"
                   role="img"
@@ -60,7 +60,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M464 16c-17.67 0-32 14.31-32 32v74.09C392.1 66.52 327.4 32 256 32C161.5 32 78.59 92.34 49.58 182.2c-5.438 16.81 3.797 34.88 20.61 40.28c16.89 5.5 34.88-3.812 40.3-20.59C130.9 138.5 189.4 96 256 96c50.5 0 96.26 24.55 124.4 64H336c-17.67 0-32 14.31-32 32s14.33 32 32 32h128c17.67 0 32-14.31 32-32V48C496 30.31 481.7 16 464 16zM441.8 289.6c-16.92-5.438-34.88 3.812-40.3 20.59C381.1 373.5 322.6 416 256 416c-50.5 0-96.25-24.55-124.4-64H176c17.67 0 32-14.31 32-32s-14.33-32-32-32h-128c-17.67 0-32 14.31-32 32v144c0 17.69 14.33 32 32 32s32-14.31 32-32v-74.09C119.9 445.5 184.6 480 255.1 480c94.45 0 177.4-60.34 206.4-150.2C467.9 313 458.6 294.1 441.8 289.6z"
+                    d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM384 288H205.3l49.38 49.38c12.5 12.5 12.5 32.75 0 45.25s-32.75 12.5-45.25 0L105.4 278.6C97.4 270.7 96 260.9 96 256c0-4.883 1.391-14.66 9.398-22.65l103.1-103.1c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L205.3 224H384c17.69 0 32 14.33 32 32S401.7 288 384 288z"
                     fill="currentColor"
                   />
                 </svg>
@@ -175,8 +175,9 @@ Object {
               type="button"
             >
               <a
-                class="link m-2 text-light"
-                href="/countries"
+                aria-current="page"
+                class="link m-2 text-light active"
+                href="/"
               >
                 <svg
                   aria-hidden="true"
@@ -201,14 +202,13 @@ Object {
               AirNow
             </h1>
             <a
-              aria-current="page"
-              class="link text-light active"
-              href="/"
+              class="link text-light"
+              href="/countries"
             >
               <svg
                 aria-hidden="true"
-                class="svg-inline--fa fa-arrows-rotate icon"
-                data-icon="arrows-rotate"
+                class="svg-inline--fa fa-circle-arrow-left icon"
+                data-icon="circle-arrow-left"
                 data-prefix="fas"
                 focusable="false"
                 role="img"
@@ -217,7 +217,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M464 16c-17.67 0-32 14.31-32 32v74.09C392.1 66.52 327.4 32 256 32C161.5 32 78.59 92.34 49.58 182.2c-5.438 16.81 3.797 34.88 20.61 40.28c16.89 5.5 34.88-3.812 40.3-20.59C130.9 138.5 189.4 96 256 96c50.5 0 96.26 24.55 124.4 64H336c-17.67 0-32 14.31-32 32s14.33 32 32 32h128c17.67 0 32-14.31 32-32V48C496 30.31 481.7 16 464 16zM441.8 289.6c-16.92-5.438-34.88 3.812-40.3 20.59C381.1 373.5 322.6 416 256 416c-50.5 0-96.25-24.55-124.4-64H176c17.67 0 32-14.31 32-32s-14.33-32-32-32h-128c-17.67 0-32 14.31-32 32v144c0 17.69 14.33 32 32 32s32-14.31 32-32v-74.09C119.9 445.5 184.6 480 255.1 480c94.45 0 177.4-60.34 206.4-150.2C467.9 313 458.6 294.1 441.8 289.6z"
+                  d="M256 0C114.6 0 0 114.6 0 256c0 141.4 114.6 256 256 256s256-114.6 256-256C512 114.6 397.4 0 256 0zM384 288H205.3l49.38 49.38c12.5 12.5 12.5 32.75 0 45.25s-32.75 12.5-45.25 0L105.4 278.6C97.4 270.7 96 260.9 96 256c0-4.883 1.391-14.66 9.398-22.65l103.1-103.1c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L205.3 224H384c17.69 0 32 14.33 32 32S401.7 288 384 288z"
                   fill="currentColor"
                 />
               </svg>
