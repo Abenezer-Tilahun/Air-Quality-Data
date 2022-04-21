@@ -3,7 +3,9 @@ module.exports = {
   transform: {
     '\\.(js|jsx)?$': 'babel-jest',
   },
-  moduleNameMapper: { '\\.(css|less)$': '<rootDir>/__mocks__/styleMock.js' },
+  moduleNameMapper: {
+    '.+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$': 'identity-obj-proxy',
+  },
   testEnvironment: 'jest-environment-jsdom',
   setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'],
 };

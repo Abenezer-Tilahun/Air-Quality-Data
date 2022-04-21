@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faRefresh } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 const Header = (props) => {
   const { id } = props;
@@ -14,13 +14,13 @@ const Header = (props) => {
             type="button"
             className="btn mt-2"
           >
-            <NavLink to={id} className="link m-2 text-light">
+            <NavLink to="/" className="link m-2 text-light">
               <FontAwesomeIcon icon={faHome} className="icon" />
             </NavLink>
           </button>
           <h1 className="header">AirNow</h1>
-          <NavLink to="/" className="link text-light">
-            <FontAwesomeIcon icon={faRefresh} className="icon" text="reload" />
+          <NavLink to={id} className="link text-light">
+            <FontAwesomeIcon icon={faCircleArrowLeft} className="icon" text="reload" />
           </NavLink>
         </div>
       </nav>
