@@ -1,23 +1,23 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAdjust } from '@fortawesome/free-solid-svg-icons';
+import { faCircleArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import Header from '../Navbar/Navbar';
 import Region from '../Detailspage/Region';
 import World from '../../Design/World_map.png';
 import style from './Regions.module.css';
 
-const Regions = () => {
+const SortRegions = () => {
   const regionList = [
     { region: 'Africa', country: 59 },
     { region: 'Americas', country: 56 },
-    { region: 'Europe', country: 53 },
+    { region: 'Antarctic', country: 5 },
     { region: 'Asia', country: 50 },
-    { region: 'Oceania', country: 27 },
-    { region: 'Antarctic', country: 5 }];
+    { region: 'Europe', country: 53 },
+    { region: 'Oceania', country: 27 }];
   return (
     <div>
-      <Header id="/" />
+      <Header id="/sort" />
       <div className="world-container">
         <img src={World} alt="" className="world-map" />
         <div className="centered">
@@ -34,10 +34,10 @@ const Regions = () => {
             onClick={() => {
 
             }}
-            to="/sort"
+            to="/"
           >
-            <NavLink to="/sort" className="link m-2 text-light">
-              <FontAwesomeIcon icon={faAdjust} className="icon" />
+            <NavLink to="/" className="link m-2 text-light">
+              <FontAwesomeIcon icon={faCircleArrowLeft} className="icon" />
             </NavLink>
           </button>
         </div>
@@ -55,4 +55,4 @@ const Regions = () => {
   );
 };
 
-export default Regions;
+export default SortRegions;

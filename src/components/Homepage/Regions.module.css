@@ -1,0 +1,52 @@
+.RegionContainer {
+  width: 100%;
+}
+
+.filtersContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  background-color: #35548b;
+  padding: 5px 10px;
+  margin-bottom: 2px;
+  border-bottom: white;
+}
+
+.RegionBox {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+}
+
+.route {
+  width: 50%;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.RegionContainer ul a:nth-child(4n+1) {
+  background-color: #4066ad;
+  color: white;
+}
+
+.RegionContainer ul a:nth-child(4n) {
+  background-color: #4066ad;
+  color: white;
+}
+
+.RegionContainer ul a:nth-child(4n-1) {
+  background-color: #4872c2;
+  color: white;
+}
+
+.RegionContainer ul a:nth-child(4n-2) {
+  background-color: #4872c2;
+  color: white;
+}

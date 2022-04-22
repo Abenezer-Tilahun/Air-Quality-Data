@@ -11,6 +11,7 @@ import Asia from '../../Design/Asia.png';
 import Oceania from '../../Design/Oceania.png';
 import Europe from '../../Design/Europe.png';
 import Antarctic from '../../Design/Antarctica.png';
+import classes from './Region.module.css';
 
 const Region = (props) => {
   const { region, regionCountry } = props;
@@ -23,7 +24,7 @@ const Region = (props) => {
   else if (region === 'Americas') region1 = Americas;
   else region1 = Antarctic;
   return (
-    <div className="col-6 col-lg-4 col-md-4 border">
+    <div className={`col-6 col-lg-4 col-md-4 ${classes.row}`}>
       <div className="region d-flex justify-content-between">
         <div className="d-flex flex-column">
           <img src={region1} alt="" className="m-2 img" />
