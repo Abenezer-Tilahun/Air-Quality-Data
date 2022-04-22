@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { getPollutionData } from '../../Redux/Actions/Pollution';
+import classes from './Country.module.css';
 
 const Country = (props) => {
   const {
@@ -13,7 +14,7 @@ const Country = (props) => {
   const dispatch = useDispatch();
 
   return (
-    <div className="col-lg-3 col-md-4 col-6 col-6 border">
+    <div className={`col-lg-3 col-md-4 col-6 col-6 ${classes.row}`}>
       <div className="d-flex justify-content-between">
         <div className="d-flex flex-column">
           <img src={flag} alt="flag" className="m-2 img" />

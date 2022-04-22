@@ -11,6 +11,7 @@ import Asia from '../../Design/Asia.png';
 import Oceania from '../../Design/Oceania.png';
 import Europe from '../../Design/Europe.png';
 import Antarctic from '../../Design/Antarctica.png';
+import classes from './Countries.module.css';
 
 const Countries = () => {
   const countries = useSelector((state) => state.countryReducer);
@@ -35,8 +36,8 @@ const Countries = () => {
   return (
     <div>
       <Header id="/" />
-      <div className="row m-4">
-        <div className="col-12 d-flex justify-content-center align-items-center border gap-4">
+      <div className={`row m-4 ${classes.row}`}>
+        <div className="col-12 d-flex justify-content-center align-items-center  gap-4">
           <h3>{countries[0].region}</h3>
           <img src={region1} alt="" className="m-2 img1" />
         </div>
