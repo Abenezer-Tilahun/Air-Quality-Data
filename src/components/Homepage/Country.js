@@ -14,7 +14,7 @@ const Country = (props) => {
   const dispatch = useDispatch();
 
   return (
-    <div className={`col-lg-3 col-md-4 col-6 col-6 ${classes.row}`}>
+    <div className={`col-lg-3 col-md-4 col-6 col-6 border ${classes.row}`}>
       <div className="d-flex justify-content-between">
         <div className="d-flex flex-column">
           <img src={flag} alt="flag" className="m-2 img" />

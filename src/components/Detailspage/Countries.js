@@ -37,7 +37,7 @@ const Countries = () => {
     <div>
       <Header id="/" />
       <div className={`row m-4 ${classes.row}`}>
-        <div className="col-12 d-flex justify-content-center align-items-center  gap-4">
+        <div className="col-12 d-flex justify-content-center align-items-center border  gap-4">
           <h3>{countries[0].region}</h3>
           <img src={region1} alt="" className="m-2 img1" />
         </div>
