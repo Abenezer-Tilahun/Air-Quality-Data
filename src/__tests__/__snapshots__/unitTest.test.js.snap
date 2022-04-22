@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components snapshot tests Footer renders correctly 1`] = `
+<footer
+  className="grid place-content-center bg-pink-500 text-white shadow-lg"
+>
+  <h5>
+    A Metrics WebApp Design By Abenezer-Tilahun(@2022
+    <i
+      aria-hidden="true"
+      className="fa fa-copyright"
+    />
+    )
+  </h5>
+</footer>
+`;
+
+exports[`Components snapshot tests Header renders correctly 1`] = `
+<div
+  className="bg-pink-500 shadow-lg"
+>
+  <nav>
+    <div
+      className="d-flex justify-content-between align-items-center p-3 mb-2"
+    >
+      <h1
+        className="header"
+      >
+        AirNow
+      </h1>
+    </div>
+  </nav>
+</div>
+`;

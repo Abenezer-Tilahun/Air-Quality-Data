@@ -1,0 +1,43 @@
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row:nth-child(1) {
+  background: rgb(67 105 178);
+}
+
+.row:nth-child(2) {
+  background: #35548b;
+}
+
+.row:nth-child(3) {
+  background: rgb(67 105 178);
+}
+
+.row:nth-child(4) {
+  background: #35548b;
+}
+
+.row:nth-child(5) {
+  background: rgb(67 105 178);
+}
+
+.row:nth-child(6) {
+  background: #35548b;
+}
+
+.RegionContainer {
+  width: 100%;
+}
+
+@media only screen and (max-width: 769px) {
+  .row:nth-child(1) {
+    background: rgb(67 105 178);
+  }
+
+  .row:nth-child(2) {
+    background: #35548b;
+  }
+}

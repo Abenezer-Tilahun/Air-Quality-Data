@@ -2,40 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Abenezer Tilahun" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Air-Quality-Data" />
+  <meta property="og:image" content="data:image/jpeg;base64,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"/>
+  <meta property="og:description" content="The Air pollution app, in this web app you will be able to see what the current air pollution data is and also can forecast air pollution with Geographical coordinates (latitude, longitude)"/>
+  <meta property="og:url" content="https://github.com/Abenezer-Tilahun/Air-Quality-Data"/>
     <link rel="manifest" href="./manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>Air pollution app</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
