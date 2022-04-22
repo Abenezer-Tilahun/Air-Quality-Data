@@ -24,7 +24,7 @@ const Region = (props) => {
   else if (region === 'Americas') region1 = Americas;
   else region1 = Antarctic;
   return (
-    <div className={`col-6 col-lg-4 col-md-4 ${classes.row}`}>
+    <div className={`col-6 col-lg-4 col-md-4 border ${classes.row}`}>
       <div className="region d-flex justify-content-between">
         <div className="d-flex flex-column">
           <img src={region1} alt="" className="m-2 img" />
